@@ -19,7 +19,7 @@ export default function Home() {
   const [loading, setLoading] = useState(false);
   const [messageState, setMessageState] = useState<{ messages: Message[], pending?: string, history: [string, string][] }>({
     messages: [{
-      "message": "Hi, I'm an TaxSavvy, assistant for Your Data. How can I help you?",
+      "message": "Hi, I'm an TaxSavvy, assistant for Your BIR Data. How can I help you?",
       "type": "apiMessage"
     }],
     history: []
@@ -118,8 +118,8 @@ export default function Home() {
     <>
       <Head>
         {/* <!-- Primary Meta Tags --> */}
-        <title>Chat Your Data</title>
-        <meta name="title" content="Chat Your Data" />
+        <title>BIR Data</title>
+        <meta name="title" content="BIR Data" />
         <meta
           name="description"
           content="Using AI to ask questions of your data"
