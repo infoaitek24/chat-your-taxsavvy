@@ -19,7 +19,7 @@ export default function Home() {
   const [loading, setLoading] = useState(false);
   const [messageState, setMessageState] = useState<{ messages: Message[], pending?: string, history: [string, string][] }>({
     messages: [{
-      "message": "Hi, I'm an AI assistant for Your Data. How can I help you?",
+      "message": "Hi, I'm an TaxSavvy, assistant for Your Data. How can I help you?",
       "type": "apiMessage"
     }],
     history: []
@@ -140,8 +140,7 @@ export default function Home() {
         </div>
         <div className={styles.navlinks}>
           <a
-            href="https://github.com/hillis/chat-your-data"
-            target="_blank"
+            href="https://github.com/infoaitek24/chat-your-taxsavvy.git/
             rel="noreferrer"
           >
             GitHub
